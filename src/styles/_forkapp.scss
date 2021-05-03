@@ -1,7 +1,7 @@
 .fork-app {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 300px);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
 }
@@ -53,16 +53,16 @@
   width: 390px;
   border-radius: 40px;
   border: 2px solid #8d81ac;
-  background: #ffffff;
-  color: #8d81ac;
+  background: #8d81ac;
+  color: #ffffff;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 410px;
 }
 .btn-fork:hover{
-  background-color: #8d81ac;
-  color: #ffffff;
+  background-color:#ffffff;;
+  color: #8d81ac;
 }
 .down-btn-text {
   font-size: 14px;
