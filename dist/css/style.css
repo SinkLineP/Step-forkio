@@ -1,0 +1,51 @@
+.rev {
+  width: 906px;
+  height: 192px;
+  display: block;
+  margin: 0px auto 0px auto; }
+  .rev .rev-title {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 54px;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #635C73; }
+  .rev .rev-text {
+    font-family: Lato, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 32px;
+    align-items: center;
+    text-align: center;
+    color: #323232; }
+  .rev .rev-button .rev-btn {
+    color: #323232;
+    display: inline-block;
+    text-shadow: 1px 1px #fff;
+    text-decoration: none;
+    padding: .3em 1em;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    outline: none;
+    background: #d6dbbf no-repeat;
+    background-image: linear-gradient(to left, #aaa, #aaa), linear-gradient(to left, #feffe8, #feffe8), linear-gradient(#feffe8, #d6dbbf);
+    background-position: calc(100% - 3.7em) 0, calc(100% - 3.7em + 1px) 0, 0 0;
+    background-size: 1px 100%, 1px 100%, auto auto;
+    overflow: hidden; }
+  .rev .rev-button .rev-btn:after {
+    color: #323232;
+    content: "";
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    margin-left: 1.4em;
+    vertical-align: middle;
+    font-family: "Times", "Times New Roman", "serif", "sans-serif", "EmojiSymbols";
+    font-weight: 700;
+    font-size: 140%; }
+  .rev .rev-button .rev-btn:after {
+    content: "1.397"; }
