@@ -276,3 +276,10 @@
   line-height: 50px;
   align-items: center;
   color: #8D81AC; }
+
+.price-table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 0px;
+  grid-template-areas: ". . . ."; }
