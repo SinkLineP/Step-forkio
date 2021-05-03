@@ -113,16 +113,16 @@
   width: 390px;
   border-radius: 40px;
   border: 2px solid #8d81ac;
-  background: #ffffff;
-  color: #8d81ac;
+  background: #8d81ac;
+  color: #ffffff;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 410px; }
 
 .btn-fork:hover {
-  background-color: #8d81ac;
-  color: #ffffff; }
+  background-color: #ffffff;
+  color: #8d81ac; }
 
 .down-btn-text {
   font-size: 14px;
@@ -488,3 +488,94 @@
           opacity: 0; }
     .price-block-active .price-content .price-btn {
       transform: translateY(35px); }
+
+.img-about-fork {
+  width: 100%;
+  height: auto; }
+
+.text-about-fork {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  margin-left: 20%;
+  font-size: 48px;
+  font-weight: 700;
+  color: white; }
+
+.talking-about {
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  grid-template-rows: 1fr;
+  gap: 0px 200px; }
+
+.post1 {
+  grid-area: 1 / 1 / 2 / 2; }
+
+.post2 {
+  grid-area: 1 / 2 / 2 / 3; }
+
+.post3 {
+  transform: translateY(-20px);
+  grid-area: 1 / 3 / 2 / 4; }
+
+.post4 {
+  grid-area: 2 / 1 / 3 / 2; }
+
+.post5 {
+  grid-area: 2 / 2 / 3 / 3; }
+
+.post6 {
+  grid-area: 2 / 3 / 3 / 4; }
+
+.text-about {
+  color: white;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  width: 350px;
+  font-weight: 700;
+  line-height: 24px;
+  text-align: center; }
+
+.img-about {
+  display: block;
+  margin-left: 100px;
+  margin-right: auto; }
+
+.three {
+  margin-left: 140px; }
+
+.four {
+  margin-left: 65px; }
+
+.six {
+  margin-left: 120px; }
+
+.grid-on-img {
+  margin-left: 50px;
+  position: absolute;
+  top: 200px;
+  left: 0; }
+
+.down-text-about {
+  font-family: Lato, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  color: #a291a5;
+  width: 1000px;
+  position: absolute;
+  top: 600px;
+  left: 13%; }
+
+.about-fork {
+  position: relative;
+  width: 100%;
+  background-color: #4A3B4E; }
+
+.fork-line {
+  position: absolute;
+  top: 670px;
+  left: 17.3%;
+  width: 65%; }
