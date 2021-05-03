@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Svg Vector Icons : http://www.onlinewebfonts.com/icon -->
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" enable-background="new 0 0 1000 1000" xml:space="preserve">
-<metadata> Svg Vector Icons : http://www.onlinewebfonts.com/icon </metadata>
-<g><path d="M968.3,527c-12.8,15.5-136.7,257.9-470.1,257.9C183,784.9,43.7,539.7,30.9,524.1L10,499l21-25.5C43.8,458,185.5,215.1,500.4,215.1c316,0.7,456.6,245.6,469.4,261.2l20.2,25.4L968.3,527z M500,296.1c-231.7,0-309.1,122.5-382.4,203.2c73,81.1,151.5,204.2,382.4,204.6l-2.1,0.4c250.1,0,309.7-122,382.9-202.7C807.8,420.6,730.9,296.6,500,296.1z M499.3,663.5c-43.7,0-83.7-18.7-114.6-49.3c-30.8-30.6-47.7-72.5-47.6-115.7c0.2-88.9,73.5-161.9,163.5-161.9c90.5,0.2,162.8,73.8,162.6,163C663.1,588.5,584.2,663.5,499.3,663.5z M540.9,418.5c-22.6,0-41,18.3-41.1,40.7c0,10.9,4.2,21.2,11.9,28.9c7.7,7.7,17.6,11.9,28.5,11.9c21.7,0,41.1-18.3,41.2-40.7C581.5,436.9,563.5,418.6,540.9,418.5z"/></g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="357" height="208" viewBox="0 0 649.09 378.18" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(0.66 0 0 0.66 324.28 188.62)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(0,0,0); fill-rule: nonzero; opacity: 1;"  transform=" translate(-500, -500)" d="M 968.3 527 c -12.8 15.5 -136.7 257.9 -470.1 257.9 C 183 784.9 43.7 539.7 30.9 524.1 L 10 499 l 21 -25.5 C 43.8 458 185.5 215.1 500.4 215.1 c 316 0.7 456.6 245.6 469.4 261.2 l 20.2 25.4 L 968.3 527 z M 500 296.1 c -231.7 0 -309.1 122.5 -382.4 203.2 c 73 81.1 151.5 204.2 382.4 204.6 l -2.1 0.4 c 250.1 0 309.7 -122 382.9 -202.7 C 807.8 420.6 730.9 296.6 500 296.1 z M 499.3 663.5 c -43.7 0 -83.7 -18.7 -114.6 -49.3 c -30.8 -30.6 -47.7 -72.5 -47.6 -115.7 c 0.2 -88.9 73.5 -161.9 163.5 -161.9 c 90.5 0.2 162.8 73.8 162.6 163 C 663.1 588.5 584.2 663.5 499.3 663.5 z M 540.9 418.5 c -22.6 0 -41 18.3 -41.1 40.7 c 0 10.9 4.2 21.2 11.9 28.9 c 7.7 7.7 17.6 11.9 28.5 11.9 c 21.7 0 41.1 -18.3 41.2 -40.7 C 581.5 436.9 563.5 418.6 540.9 418.5 z" stroke-linecap="round" />
+</g>
 </svg>

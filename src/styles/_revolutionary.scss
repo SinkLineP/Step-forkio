@@ -33,11 +33,14 @@
 
     .rev-button {
         & .rev-btn {
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 700;
             color: #323232;
             display: inline-block;
-            text-shadow: 1px 1px #fff;
+            // text-align: center;
+            // text-shadow: 1px 1px #fff;
             text-decoration: none;
-            padding: .3em 1em;
+            padding: .1em 0.5em;
             border: 1px solid #aaa;
             border-radius: 5px;
             outline: none;
@@ -68,5 +71,17 @@
         & .rev-btn:after {
             content: "1.397";
         }
+    }
+
+    .rev-eye {
+        transform: translateY(3px);
+        width: 30px;
+        height: auto;
+    }
+
+    .rev-star {
+        transform: translateY(3px);
+        width: 17px;
+        height: auto;
     }
 }
