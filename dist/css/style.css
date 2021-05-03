@@ -119,7 +119,8 @@
 
 .text-about-fork {
   position: absolute;
-  margin-top: -700px;
+  top: 0px;
+  left: 0;
   margin-left: 20%;
   font-size: 48px;
   font-weight: 700;
@@ -127,10 +128,9 @@
 
 .talking-about {
   display: grid;
-  grid-template-columns: repeat(5, 240px);
-  grid-template-rows: repeat(1, 1fr);
-  grid-column-gap: 200px;
-  grid-row-gap: 0px; }
+  grid-template-columns: repeat(3, 240px);
+  grid-template-rows: 1fr;
+  gap: 0px 200px; }
 
 .post1 {
   grid-area: 1 / 1 / 2 / 2; }
@@ -177,7 +177,9 @@
 
 .grid-on-img {
   margin-left: 50px;
-  transform: translateY(-540px); }
+  position: absolute;
+  top: 200px;
+  left: 0; }
 
 .down-text-about {
   font-family: Lato, sans-serif;
@@ -187,7 +189,16 @@
   text-align: center;
   color: #a291a5;
   width: 1000px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transform: translateY(-460px); }
+  position: absolute;
+  top: 600px;
+  left: 13%; }
+
+.about-fork {
+  position: relative;
+  width: 100%; }
+
+.fork-line {
+  position: absolute;
+  top: 670px;
+  left: 17.3%;
+  width: 65%; }
