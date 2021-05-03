@@ -1,7 +1,104 @@
-.rev {
-  width: 906px;
-  height: 192px;
+.page__body {
+  font-family: Montserrat, sans-serif;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0; }
+
+.navbar-menu {
+  height: 50px;
+  padding-top: 30px;
+  padding-right: 5%;
+  overflow: hidden; }
+
+.navbar-menu a {
+  position: relative;
+  z-index: 1;
+  font-weight: 700;
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-size: 17px; }
+
+.navbar-menu a:hover {
+  color: #8d81ac;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 40px; }
+
+.forkio {
+  z-index: 1;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 150px;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white; }
+
+.nav-img {
+  z-index: 1;
+  position: absolute;
+  padding-left: 90px;
+  width: 40px; }
+
+.fork-app {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.imgfork {
+  width: 100%; }
+
+.img-fork {
+  position: absolute;
+  margin-top: -80px;
+  grid-area: 1 / 1 / 2 / 2; }
+
+.text-fork {
+  z-index: 1;
+  margin-left: 18%; }
+
+.textfork {
+  color: white;
+  font-size: 82px;
+  font-weight: 700;
+  text-align: center; }
+
+.text2 {
+  font-family: Lato, sans-serif;
+  margin-top: -70px;
+  width: 1000px;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  color: #8d81ac; }
+
+.text3 {
+  margin-top: -10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #848e97;
+  text-transform: uppercase; }
+
+.btn-fork {
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  height: 62px;
+  width: 390px;
+  border-radius: 40px;
+  border: 2px solid #8d81ac;
+  background: #ffffff;
+  color: #8d81ac;
   display: block;
+<<<<<<< HEAD
   margin: 0px auto 0px auto; }
   .rev .rev-title {
     font-family: Montserrat, sans-serif;
@@ -72,3 +169,19 @@
     transform: translateY(2px);
     width: 12px;
     height: auto; }
+=======
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 410px; }
+
+.btn-fork:hover {
+  background-color: #8d81ac;
+  color: #ffffff; }
+
+.down-btn-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 15px;
+  text-align: center;
+  color: #848e97; }
+>>>>>>> task_forone
