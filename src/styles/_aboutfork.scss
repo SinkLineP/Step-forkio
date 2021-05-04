@@ -19,14 +19,14 @@
   display: grid;
   grid-template-columns: repeat(3, 240px);
   grid-template-rows: 1fr;
-  gap: 0px 200px;
+  gap: 50px 200px;
 }
 
 .post1 {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-.post2 {
+.post2 {  
   grid-area: 1 / 2 / 2 / 3;
 }
 
@@ -100,7 +100,7 @@
   // position: absolute;
   // margin-right: auto;
   position: absolute;
-  top: 600px;
+  top: 650px;
   left: 13%;
   // width: 100%;
   // transform: translateY(-460px);
@@ -115,7 +115,7 @@
 
 .fork-line {
   position: absolute;
-  top: 670px;
+  top: 710px;
   left: 17.3%;
   width: 65%;
 }

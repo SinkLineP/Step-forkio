@@ -28,39 +28,48 @@
   padding-right: 5%;
   overflow: hidden; }
 
-.navbar-menu a {
+.white {
   position: relative;
   z-index: 1;
   font-weight: 700;
   float: right;
-  color: #ffffff;
+  color: #8d81ac;
   text-align: center;
-  padding: 10px 35px;
+  padding: 10px 25px;
   text-decoration: none;
   font-size: 17px; }
 
-.navbar-menu a:hover {
-  color: #8d81ac;
-  text-align: center;
-  background-color: #fff;
-  border-radius: 40px; }
+.white:hover {
+  color: #ffffff; }
 
 .forkio {
   z-index: 1;
   position: absolute;
-  margin-top: 6px;
-  margin-left: 150px;
+  margin-top: 4px;
+  margin-left: 30px;
   text-transform: uppercase;
   font-family: Lato, sans-serif;
   font-size: 24px;
   font-weight: 700;
-  color: white; }
+  color: #8d81ac; }
 
-.nav-img {
+.icon-nav {
   z-index: 1;
-  position: absolute;
+  transform: translateY(-2px);
   padding-left: 90px;
   width: 40px; }
+
+.btn-buy {
+  margin-left: 20px;
+  width: 180px;
+  border: 1px solid #8d81ac;
+  color: #ffffff;
+  background-color: #8d81ac;
+  border-radius: 40px; }
+
+.btn-buy:hover {
+  background-color: #ffffff;
+  color: #8d81ac; }
 
 .fork-app {
   display: grid;
@@ -506,7 +515,7 @@
   display: grid;
   grid-template-columns: repeat(3, 240px);
   grid-template-rows: 1fr;
-  gap: 0px 200px; }
+  gap: 50px 200px; }
 
 .post1 {
   grid-area: 1 / 1 / 2 / 2; }
@@ -566,7 +575,7 @@
   color: #a291a5;
   width: 1000px;
   position: absolute;
-  top: 600px;
+  top: 650px;
   left: 13%; }
 
 .about-fork {
@@ -576,6 +585,32 @@
 
 .fork-line {
   position: absolute;
-  top: 670px;
+  top: 710px;
   left: 17.3%;
   width: 65%; }
+
+@media (max-width: 1200px) {
+  .white {
+    padding: 10px 20px; }
+  .btn-buy {
+    margin-left: 15px;
+    width: 140px; }
+  .text-fork {
+    margin-left: 10%; }
+  .btn-fork {
+    margin-top: 318px; }
+  .text-about-fork {
+    margin-left: 17%; }
+  .text-about {
+    width: 320px; }
+  .talking-about {
+    margin-left: 23px;
+    gap: 50px 130px; }
+  .down-text-about {
+    left: 8%; }
+  .two {
+    margin-top: -7px; }
+  .four {
+    margin-top: 8px; }
+  .one {
+    margin-top: -3px; } }
