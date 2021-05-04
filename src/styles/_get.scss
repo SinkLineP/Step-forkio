@@ -8,6 +8,9 @@
     grid-template-rows: 20px, 20px, 20px, 20px;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+
+
+    
 }
 
 .get-grid1 {
@@ -104,6 +107,7 @@
 }
 
 .get-grid10 {
+    margin-left: 4%;
     grid-area: 2 / 3 / 5 / 4;
 }
 
