@@ -107,7 +107,10 @@
 }
 
 .get-grid10 {
-    margin-left: 4%;
+    & .get-editor-small {
+        display: none;
+    }
+    margin-left: 0%;
     grid-area: 2 / 3 / 5 / 4;
 }
 
