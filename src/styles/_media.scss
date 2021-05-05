@@ -264,8 +264,8 @@
       }
 }
 
-
-@media (max-width: 320px) {
+@media (min-width: 320px) {
+@media (max-width: 480px) {
     .pricing {
         & .pricing-title {
             font-size: 28px;
@@ -464,9 +464,11 @@
 
       .textfork {
           width: 320px;
+          display: block;
+          margin: 70px auto 70px auto;
         // margin-left: -20px;
-        margin-bottom: 70px;
-        margin-top: 70px;
+        // margin-bottom: 70px;
+        // margin-top: 70px;
         font-size: 48px;
       }
       .text2 {
@@ -556,4 +558,5 @@
       .fork-line {
         margin-top: 900px;
       }
+}
 }

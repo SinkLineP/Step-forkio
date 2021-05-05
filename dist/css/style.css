@@ -763,7 +763,7 @@
   .three {
     margin-top: -13px; } }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 480px) {
   .pricing .pricing-title {
     font-size: 28px; }
   .rev {
@@ -876,8 +876,8 @@
     width: 320px; }
   .textfork {
     width: 320px;
-    margin-bottom: 70px;
-    margin-top: 70px;
+    display: block;
+    margin: 70px auto 70px auto;
     font-size: 48px; }
   .text2 {
     width: 320px;
