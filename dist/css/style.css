@@ -844,6 +844,7 @@
     .get-grid10 .get-editor-big {
       display: none; }
     .get-grid10 .get-editor-small {
+      margin-left: 3px;
       display: block; }
   .price-table {
     margin: 0px;
