@@ -90,6 +90,14 @@
 .imgfork {
   width: 100%; }
 
+.imgfork2 {
+  display: none;
+  transform: translateY(0px); }
+
+.imgfork3 {
+  display: none;
+  transform: translateY(0px); }
+
 .img-fork {
   position: absolute;
   margin-top: -80px;
@@ -637,6 +645,7 @@
   .rev {
     width: 689px; }
     .rev .rev-title {
+      margin-top: 120px;
       font-size: 42px; }
   .get {
     padding: 64px 0px 0px 0px;
@@ -697,8 +706,14 @@
   .navbar-menu {
     height: 90px;
     background: #27262a; }
-  .img-fork {
+  .imgfork {
+    display: none;
     margin-top: 0; }
+  .imgfork3 {
+    display: none; }
+  .imgfork2 {
+    margin-top: 80px;
+    display: block; }
   .icon-nav {
     margin-top: -15px;
     margin-left: 30px; }
@@ -715,7 +730,7 @@
     width: 700px;
     text-align: center;
     display: block;
-    margin: 40px auto 0px auto;
+    margin: 100px auto 0px auto;
     font-size: 80px; }
   .text2 {
     width: 710px;
@@ -729,7 +744,7 @@
     margin: 10px auto 0px auto; }
   .btn-fork {
     display: block;
-    margin: 205px auto 0px auto; }
+    margin: 505px auto 0px auto; }
   .down-btn-text {
     display: block;
     margin: 20px auto 0px auto; }
@@ -866,7 +881,13 @@
     height: 50px;
     background: #27262a; }
   .imgfork {
-    height: 600px; }
+    display: none;
+    margin-top: 0; }
+  .imgfork3 {
+    margin-top: 80px;
+    display: block; }
+  .imgfork2 {
+    display: none; }
   .icon-nav {
     margin-left: 20px; }
   .btn-buy {
@@ -877,9 +898,10 @@
   .textfork {
     width: 320px;
     margin-bottom: 70px;
-    margin-top: 70px;
+    margin-top: 90px;
     font-size: 48px; }
   .text2 {
+    margin-top: -50px;
     width: 320px;
     font-size: 20px; }
   .text3 {
@@ -887,7 +909,7 @@
     font-size: 14px; }
   .btn-fork {
     width: 290px;
-    margin-top: 300px; }
+    margin-top: 442px; }
   .down-btn-text {
     width: 320px; }
   .forkio {
