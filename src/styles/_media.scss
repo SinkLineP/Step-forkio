@@ -48,6 +48,47 @@
   }
 }
 
+@media (max-width: 993px) {
+  .icon-nav {
+      transform: translateX(-40px);
+  }
+  .forkio{
+    transform: translateX(-40px);
+  }
+  .textfork{
+    transform: translateX(-95px);
+  }
+  .text2{
+    transform: translateX(-98px);
+  }
+  .text3{
+    transform: translateX(-98px);
+  }
+  .btn-fork{
+    transform: translateX(-120px); 
+    margin-top: 200px;
+  }
+  .down-btn-text{
+    transform: translateX(-120px); 
+  }
+
+  .text-about-fork {
+    margin-left: 9%;
+  }
+  .text-about {
+    width: 300px;
+  }
+  .talking-about {
+    margin-left: 23px;
+    gap: 50px 90px;
+  }
+  .down-text-about {
+    left: 8%;
+  }
+
+
+}
+
 @media (max-width: 768px) {
   .rev {
     width: 689px;
@@ -465,7 +506,6 @@
     margin-top: -15px;
   }
 
-
   .text-fork {
     width: 320px;
 
@@ -476,11 +516,11 @@
     width: 320px;
     // margin-left: -20px;
     margin-bottom: 70px;
-    margin-top:90px;
+    margin-top: 90px;
     font-size: 48px;
   }
   .text2 {
-      margin-top: -50px;
+    margin-top: -50px;
     // margin-left: -18px;
     width: 320px;
     font-size: 20px;

@@ -641,6 +641,32 @@
   .one {
     margin-top: -3px; } }
 
+@media (max-width: 993px) {
+  .icon-nav {
+    transform: translateX(-40px); }
+  .forkio {
+    transform: translateX(-40px); }
+  .textfork {
+    transform: translateX(-95px); }
+  .text2 {
+    transform: translateX(-98px); }
+  .text3 {
+    transform: translateX(-98px); }
+  .btn-fork {
+    transform: translateX(-120px);
+    margin-top: 200px; }
+  .down-btn-text {
+    transform: translateX(-120px); }
+  .text-about-fork {
+    margin-left: 9%; }
+  .text-about {
+    width: 300px; }
+  .talking-about {
+    margin-left: 23px;
+    gap: 50px 90px; }
+  .down-text-about {
+    left: 8%; } }
+
 @media (max-width: 768px) {
   .rev {
     width: 689px; }
