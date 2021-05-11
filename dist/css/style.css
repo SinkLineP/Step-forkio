@@ -29,13 +29,13 @@
   overflow: hidden; }
 
 .white {
+  padding: 10px 20px;
   position: relative;
   z-index: 1;
   font-weight: 700;
   float: right;
   color: #8d81ac;
   text-align: center;
-  padding: 10px 25px;
   text-decoration: none;
   font-size: 17px; }
 
@@ -46,18 +46,21 @@
   z-index: 1;
   position: absolute;
   margin-top: 4px;
-  margin-left: 150px;
+  margin-left: 100px;
   text-transform: uppercase;
   font-family: Lato, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #8d81ac; }
 
+.forkio:hover {
+  color: white; }
+
 .icon-nav {
   z-index: 1;
   position: absolute;
   margin-top: -3px;
-  margin-left: 90px;
+  margin-left: 50px;
   width: 40px; }
 
 .btn-buy {
@@ -69,8 +72,8 @@
   padding: 10px 25px;
   text-decoration: none;
   font-size: 17px;
-  margin-left: 20px;
-  width: 180px;
+  margin-left: 15px;
+  width: 140px;
   border: 1px solid #8d81ac;
   color: #ffffff;
   background-color: #8d81ac;
@@ -82,48 +85,45 @@
 
 .fork-app {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 800px;
   grid-column-gap: 0px;
-  grid-row-gap: 0px; }
+  grid-row-gap: 0px;
+  margin-bottom: -200px; }
 
 .imgfork {
-  width: 100%; }
-
-.imgfork2 {
-  display: none;
-  transform: translateY(0px); }
-
-.imgfork3 {
-  display: none;
-  transform: translateY(0px); }
-
-.img-fork {
+  width: 100%;
+  height: 800px;
   position: absolute;
   margin-top: -80px;
   grid-area: 1 / 1 / 2 / 2; }
 
 .text-fork {
   z-index: 1;
-  margin-left: 18%; }
-
-.textfork {
+  display: block;
   color: white;
   font-size: 82px;
   font-weight: 700;
-  text-align: center; }
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 .text2 {
   font-family: Lato, sans-serif;
-  margin-top: -70px;
   width: 1000px;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
-  color: #8d81ac; }
+  color: #8d81ac;
+  transform: translateY(-620px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .text3 {
-  margin-top: -10px;
+  transform: translateY(-640px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
@@ -144,7 +144,8 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 410px; }
+  margin-top: -255px;
+  z-index: 1; }
 
 .btn-fork:hover {
   background-color: #ffffff;
@@ -155,7 +156,8 @@
   font-weight: 400;
   line-height: 15px;
   text-align: center;
-  color: #848e97; }
+  color: #848e97;
+  transform: translateY(-190px); }
 
 .rev {
   width: 906px;
@@ -518,24 +520,34 @@
     .price-block-active .price-content .price-btn {
       transform: translateY(35px); }
 
-.img-about-fork {
+.about-fork {
+  transform: translateY(-150px);
+  position: relative;
+  height: 590px;
   width: 100%;
-  height: auto; }
+  background-color: #4a3b4e; }
 
-.text-about-fork {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  margin-left: 20%;
+.heading-about-fork {
+  z-index: 1;
+  transform: translateY(20px);
   font-size: 48px;
   font-weight: 700;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   color: white; }
 
-.talking-about {
+.img-about-fork {
+  height: 750px;
+  width: 100%; }
+
+.grid-on-img {
+  transform: translateY(-560px);
+  margin-left: 4%;
   display: grid;
-  grid-template-columns: repeat(3, 240px);
-  grid-template-rows: 1fr;
-  gap: 30px 200px; }
+  grid-template-columns: repeat(3, 250px);
+  gap: 60px 200px; }
 
 .post1 {
   grid-area: 1 / 1 / 2 / 2; }
@@ -568,23 +580,9 @@
 
 .img-about {
   display: block;
-  margin-left: 100px;
-  margin-right: auto; }
-
-.three {
-  margin-left: 140px; }
-
-.four {
-  margin-left: 65px; }
-
-.six {
-  margin-left: 120px; }
-
-.grid-on-img {
-  margin-left: 50px;
-  position: absolute;
-  top: 200px;
-  left: 0; }
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
 
 .down-text-about {
   font-family: Lato, sans-serif;
@@ -593,79 +591,50 @@
   line-height: 21px;
   text-align: center;
   color: #a291a5;
-  width: 1000px;
+  width: 80%;
   position: absolute;
-  top: 650px;
-  left: 13%; }
+  top: 700px;
+  left: 10%; }
 
-.about-fork {
-  position: relative;
-  width: 100%;
-  background-color: #4A3B4E; }
+.grid-on-img div {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .fork-line {
   position: absolute;
-  top: 710px;
+  top: 790px;
   left: 17.3%;
   width: 65%; }
 
-@media (max-width: 1200px) {
+@media (min-width: 993px) and (max-width: 1200px) {
   .price-block {
     margin: 51px 2px 0px 20px; }
   .price-block-active {
     margin: 0px 2px 0px 0px; }
   .get-grid10 {
     margin-left: 0%; }
+  .imgfork {
+    object-fit: cover;
+    width: 100%;
+    height: 800px; }
   .white {
-    padding: 10px 20px; }
-  .btn-buy {
-    margin-left: 15px;
-    width: 140px; }
-  .text-fork {
-    margin-left: 10%; }
-  .btn-fork {
-    margin-top: 318px; }
-  .text-about-fork {
-    margin-left: 17%; }
+    padding: 10px 15px; }
+  .grid-on-img {
+    gap: 60px 0;
+    grid-template-columns: repeat(3, 32%); }
+  .grid-on-img div {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .text-about {
-    width: 320px; }
-  .talking-about {
-    margin-left: 23px;
-    gap: 50px 130px; }
-  .down-text-about {
-    left: 8%; }
-  .two {
-    margin-top: -7px; }
-  .four {
-    margin-top: 8px; }
-  .one {
-    margin-top: -3px; } }
-
-@media (max-width: 993px) {
-  .icon-nav {
-    transform: translateX(-40px); }
-  .forkio {
-    transform: translateX(-40px); }
-  .textfork {
-    transform: translateX(-95px); }
-  .text2 {
-    transform: translateX(-98px); }
-  .text3 {
-    transform: translateX(-98px); }
-  .btn-fork {
-    transform: translateX(-120px);
-    margin-top: 200px; }
-  .down-btn-text {
-    transform: translateX(-120px); }
-  .text-about-fork {
-    margin-left: 9%; }
-  .text-about {
-    width: 300px; }
-  .talking-about {
-    margin-left: 23px;
-    gap: 50px 90px; }
-  .down-text-about {
-    left: 8%; } }
+    width: 280px; }
+  .img-about-fork {
+    object-fit: cover;
+    width: 100%;
+    height: 800px; } }
 
 @media (max-width: 768px) {
   .rev {
@@ -732,14 +701,6 @@
   .navbar-menu {
     height: 90px;
     background: #27262a; }
-  .imgfork {
-    display: none;
-    margin-top: 0; }
-  .imgfork3 {
-    display: none; }
-  .imgfork2 {
-    margin-top: 80px;
-    display: block; }
   .icon-nav {
     margin-top: -15px;
     margin-left: 30px; }
@@ -768,9 +729,6 @@
     font-size: 14px;
     display: block;
     margin: 10px auto 0px auto; }
-  .btn-fork {
-    display: block;
-    margin: 505px auto 0px auto; }
   .down-btn-text {
     display: block;
     margin: 20px auto 0px auto; }
@@ -906,14 +864,6 @@
   .navbar-menu {
     height: 50px;
     background: #27262a; }
-  .imgfork {
-    display: none;
-    margin-top: 0; }
-  .imgfork3 {
-    margin-top: 80px;
-    display: block; }
-  .imgfork2 {
-    display: none; }
   .icon-nav {
     margin-left: 20px; }
   .btn-buy {
@@ -933,9 +883,6 @@
   .text3 {
     width: 320px;
     font-size: 14px; }
-  .btn-fork {
-    width: 290px;
-    margin-top: 442px; }
   .down-btn-text {
     width: 320px; }
   .forkio {
