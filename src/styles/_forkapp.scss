@@ -30,12 +30,12 @@
 
 .text2 {
   font-family: Lato, sans-serif;
-  width: 1000px;
+  // width: 1000px;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
   color: #8d81ac;
-  transform: translateY(-620px);
+  transform: translateY(-720px);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -43,7 +43,7 @@
 }   
 
 .text3 {
-  transform: translateY(-640px);
+  transform: translateY(-540px);
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -68,7 +68,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -255px;
+  margin-top: -200px;
   z-index: 1;
   
 }
@@ -77,11 +77,15 @@
   color: #8d81ac;
 }
 .down-btn-text {
+  width: 220px;
   font-size: 14px;
   font-weight: 400;
   line-height: 15px;
   text-align: center;
   color: #848e97;
-  transform: translateY(-190px);
-  // z-index: 1;
+  transform: translateY(-90px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
 }

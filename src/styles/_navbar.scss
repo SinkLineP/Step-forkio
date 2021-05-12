@@ -5,6 +5,10 @@
   // background-color: rgb(144, 6, 6);
   overflow: hidden;
 }
+.display-bl{
+display: none;
+}
+
 .white {
   padding: 10px 20px;
   position: relative;
@@ -15,6 +19,7 @@
   text-align: center;
   text-decoration: none;
   font-size: 17px;
+  
 }
 .white:hover {
   color: #ffffff;
