@@ -230,8 +230,8 @@
   margin-top: 90px;
   padding: 64px 0px 64px 0px;
   display: grid;
-  grid-template-columns: 200px, 700px, 1fr;
-  grid-template-rows: 20px, 20px, 20px, 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px; }
 
@@ -610,16 +610,21 @@
     padding: 64px 0px 0px 0px;
     margin: 90px 0px 0px 5%;
     display: grid;
-    grid-template-columns: 1fr, 500px;
-    grid-template-rows: 200px, 1fr, 1fr, 1fr, 1fr, 1fr;
+    grid-template-columns: 120px 1fr 1fr;
+    grid-template-rows: 200px 0.5fr 0.5fr 0.5fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px; }
   .get-grid10 {
+    width: calc(550px + 2vw);
+    height: auto;
+    margin: 0;
     margin-left: 0%; }
     .get-grid10 .get-editor-big {
-      width: calc(100% + 4vw); }
+      width: 100%;
+      height: auto; }
   .get-title-editor {
-    font-size: calc(1px + 4vw); }
+    padding-top: 50px;
+    font-size: calc(17px + 2vw); }
   .white {
     padding: 10px 20px; }
   .btn-buy {
