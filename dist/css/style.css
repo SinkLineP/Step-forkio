@@ -25,20 +25,26 @@
   margin-right: 0;
   margin-top: 0; }
 
+#menu__toggle {
+  display: none; }
+
 .navbar-menu {
   height: 50px;
   padding-top: 30px;
   padding-right: 5%;
   overflow: hidden; }
 
+.display-bl {
+  display: none; }
+
 .white {
+  padding: 10px 20px;
   position: relative;
   z-index: 1;
   font-weight: 700;
   float: right;
   color: #8d81ac;
   text-align: center;
-  padding: 10px 25px;
   text-decoration: none;
   font-size: 17px; }
 
@@ -49,18 +55,21 @@
   z-index: 1;
   position: absolute;
   margin-top: 4px;
-  margin-left: 150px;
+  margin-left: 100px;
   text-transform: uppercase;
   font-family: Lato, sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #8d81ac; }
 
+.forkio:hover {
+  color: white; }
+
 .icon-nav {
   z-index: 1;
   position: absolute;
   margin-top: -3px;
-  margin-left: 90px;
+  margin-left: 50px;
   width: 40px; }
 
 .btn-buy {
@@ -72,8 +81,8 @@
   padding: 10px 25px;
   text-decoration: none;
   font-size: 17px;
-  margin-left: 20px;
-  width: 180px;
+  margin-left: 15px;
+  width: 140px;
   border: 1px solid #8d81ac;
   color: #ffffff;
   background-color: #8d81ac;
@@ -85,40 +94,44 @@
 
 .fork-app {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 800px;
   grid-column-gap: 0px;
-  grid-row-gap: 0px; }
+  grid-row-gap: 0px;
+  margin-bottom: -200px; }
 
 .imgfork {
-  width: 100%; }
-
-.img-fork {
+  width: 100%;
+  height: 800px;
   position: absolute;
   margin-top: -80px;
   grid-area: 1 / 1 / 2 / 2; }
 
 .text-fork {
   z-index: 1;
-  margin-left: 18%; }
-
-.textfork {
+  display: block;
   color: white;
   font-size: 82px;
   font-weight: 700;
-  text-align: center; }
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
 
 .text2 {
   font-family: Lato, sans-serif;
-  margin-top: -70px;
-  width: 1000px;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
-  color: #8d81ac; }
+  color: #8d81ac;
+  transform: translateY(-680px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .text3 {
-  margin-top: -10px;
+  transform: translateY(-715px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 16px;
   font-weight: 400;
   line-height: 16px;
@@ -139,18 +152,25 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 410px; }
+  margin-top: -157px;
+  z-index: 1; }
 
 .btn-fork:hover {
   background-color: #ffffff;
   color: #8d81ac; }
 
 .down-btn-text {
+  width: 220px;
   font-size: 14px;
   font-weight: 400;
   line-height: 15px;
   text-align: center;
-  color: #848e97; }
+  color: #848e97;
+  transform: translateY(-50px);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1; }
 
 .rev {
   width: 906px;
@@ -513,24 +533,34 @@
     .price-block-active .price-content .price-btn {
       transform: translateY(35px); }
 
-.img-about-fork {
+.about-fork {
+  transform: translateY(-200px);
+  position: relative;
+  height: 540px;
   width: 100%;
-  height: auto; }
+  background-color: #4a3b4e; }
 
-.text-about-fork {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  margin-left: 20%;
+.heading-about-fork {
+  z-index: 1;
+  transform: translateY(20px);
   font-size: 48px;
   font-weight: 700;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   color: white; }
 
-.talking-about {
+.img-about-fork {
+  height: 769px;
+  width: 100%; }
+
+.grid-on-img {
+  transform: translateY(-560px);
+  margin-left: 4%;
   display: grid;
-  grid-template-columns: repeat(3, 240px);
-  grid-template-rows: 1fr;
-  gap: 30px 200px; }
+  grid-template-columns: repeat(3, 250px);
+  gap: 60px 200px; }
 
 .post1 {
   grid-area: 1 / 1 / 2 / 2; }
@@ -563,23 +593,9 @@
 
 .img-about {
   display: block;
-  margin-left: 100px;
-  margin-right: auto; }
-
-.three {
-  margin-left: 140px; }
-
-.four {
-  margin-left: 65px; }
-
-.six {
-  margin-left: 120px; }
-
-.grid-on-img {
-  margin-left: 50px;
-  position: absolute;
-  top: 200px;
-  left: 0; }
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
 
 .down-text-about {
   font-family: Lato, sans-serif;
@@ -588,19 +604,20 @@
   line-height: 21px;
   text-align: center;
   color: #a291a5;
-  width: 1000px;
+  width: 80%;
   position: absolute;
-  top: 650px;
-  left: 13%; }
+  top: 700px;
+  left: 10%; }
 
-.about-fork {
-  position: relative;
-  width: 100%;
-  background-color: #4A3B4E; }
+.grid-on-img div {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 .fork-line {
   position: absolute;
-  top: 710px;
+  top: 790px;
   left: 17.3%;
   width: 65%; }
 
@@ -637,30 +654,26 @@
   .get-title-editor {
     padding-top: 50px;
     font-size: calc(17px + 2vw); }
+  .imgfork {
+    object-fit: cover;
+    width: 100%;
+    height: 800px; }
   .white {
-    padding: 10px 20px; }
-  .btn-buy {
-    margin-left: 15px;
-    width: 140px; }
-  .text-fork {
-    margin-left: 10%; }
-  .btn-fork {
-    margin-top: 318px; }
-  .text-about-fork {
-    margin-left: 17%; }
+    padding: 10px 15px; }
+  .grid-on-img {
+    gap: 60px 0;
+    grid-template-columns: repeat(3, 32%); }
+  .grid-on-img div {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; }
   .text-about {
-    width: 320px; }
-  .talking-about {
-    margin-left: 23px;
-    gap: 50px 130px; }
-  .down-text-about {
-    left: 8%; }
-  .two {
-    margin-top: -7px; }
-  .four {
-    margin-top: 8px; }
-  .one {
-    margin-top: -3px; } }
+    width: 280px; }
+  .img-about-fork {
+    object-fit: cover;
+    width: 100%;
+    height: 800px; } }
 
 @media (min-width: 481px) and (max-width: 992px) {
   .rev {
@@ -752,78 +765,75 @@
     margin: 0px 0px 0px 0px; }
     .price-block-active .price-top {
       width: 237px; }
-  .text-fork {
-    display: block;
-    margin: 0px auto 0px auto;
-    width: 768px; }
   .navbar-menu {
-    height: 90px;
-    background: #27262a; }
-  .img-fork {
-    margin-top: 0; }
+    background-color: #27262a;
+    height: 70px;
+    margin-top: -40px; }
+  .imgfork {
+    transform: translateY(80px); }
   .icon-nav {
-    margin-top: -15px;
-    margin-left: 30px; }
+    transform: translateY(-15px);
+    left: -2%; }
   .forkio {
-    margin-top: -8px;
-    margin-left: 90px; }
-  .white {
-    transform: translateX(95px);
-    margin-top: 40px; }
+    transform: translateY(-15px);
+    left: -2%; }
   .btn-buy {
-    margin-right: -1%;
-    margin-top: -15px; }
-  .textfork {
-    width: 700px;
+    transform: translateY(-15px);
+    right: 1%; }
+  .white {
+    font-size: calc(50% + 1vw);
+    white-space: nowrap; }
+  .white1 {
+    grid-area: 1 / 1 / 2 / 2; }
+  .white2 {
+    grid-area: 1 / 2 / 2 / 3; }
+  .white3 {
+    grid-area: 1 / 3 / 2 / 4; }
+  .white4 {
+    grid-area: 1 / 4 / 2 / 5; }
+  .display-del {
+    display: none; }
+  .display-bl {
+    gap: 0 -20px;
     text-align: center;
-    display: block;
-    margin: 40px auto 0px auto;
-    font-size: 80px; }
-  .text2 {
-    width: 710px;
-    display: block;
-    margin: 10px auto 0px auto;
-    font-size: 25px; }
-  .text3 {
-    width: 710px;
-    font-size: 14px;
-    display: block;
-    margin: 10px auto 0px auto; }
-  .btn-fork {
-    display: block;
-    margin: 205px auto 0px auto; }
-  .down-btn-text {
-    display: block;
-    margin: 20px auto 0px auto; }
-  .text-about-fork {
-    margin-left: 6%;
-    font-size: 40px; }
-  .talking-about {
-    width: 718px;
-    margin-top: -30px;
-    margin-left: -5px; }
+    grid-template-columns: 19% 30% 25% 22%;
+    display: grid;
+    transform: translateY(60px);
+    margin-left: 3%; }
+  .imgfork {
+    object-fit: cover;
+    width: 100%;
+    height: 720px; }
   .post1 {
     grid-area: 1 / 1 / 2 / 2; }
   .post2 {
     grid-area: 1 / 2 / 2 / 3; }
   .post3 {
-    grid-area: 2 / 1 / 3 / 2; }
+    transform: translateY(-20px);
+    grid-area: 2/ 1 / 3 / 2; }
   .post4 {
+    transform: translateY(14px);
     grid-area: 2 / 2 / 3 / 3; }
   .post5 {
     grid-area: 3 / 1 / 4 / 2; }
   .post6 {
     grid-area: 3 / 2 / 4 / 3; }
+  .img-about-fork {
+    object-fit: cover;
+    width: 100%;
+    height: 1550px; }
+  .grid-on-img {
+    transform: translateY(-1300px);
+    gap: 60px 0;
+    grid-template-columns: repeat(2, 48%); }
   .down-text-about {
-    margin-top: 200px;
-    width: 90%;
-    left: 5%; }
+    top: 1120px; }
   .fork-line {
-    margin-top: 220px; }
-  .pricing {
-    padding-top: 600px; }
-  .three {
-    margin-top: -13px; } }
+    top: 1250px; }
+  .text-about {
+    width: 220px; }
+  .fork-app {
+    grid-template-columns: repeat(1, 100%); } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .rev {
@@ -938,45 +948,124 @@
     margin: 0px 0px 0px 24px; }
   .price-block-active {
     margin: 10px 0px 10px 0px; }
-  .talking-about {
-    width: 260px; }
-  .about-fork {
-    width: 320px; }
+  body .hamburger-menu {
+    z-index: 2;
+    transform: translateY(15px);
+    position: absolute;
+    left: 75%; }
+  body #menu__toggle {
+    opacity: 0; }
+  body #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg); }
+  body #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0); }
+  body #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg); }
+  body #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0; }
+  body .menu__btn {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1; }
+  body .menu__btn > span,
+  body .menu__btn > span::before,
+  body .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    transition-duration: 0.25s; }
+  body .menu__btn > span::before {
+    content: "";
+    top: -8px;
+    width: 18px;
+    left: 8px; }
+  body .menu__btn > span::after {
+    content: "";
+    top: 8px; }
+  body .menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 65px;
+    width: 300px;
+    height: 100%;
+    margin-left: -230px;
+    padding: 190px 0;
+    list-style: none;
+    background: #333333;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.25s; }
+  body .menu__item {
+    border-bottom: 1px solid #8d81ac;
+    display: block;
+    transform: translateY(-210px);
+    text-align: left;
+    float: left;
+    width: 86.5%;
+    line-height: 75px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.25s;
+    font-family: Montserrat, sans-serif;
+    font-size: 26px;
+    font-weight: 400; }
+  body .menu__item:hover {
+    color: #8d81ac; }
   .navbar-menu {
     height: 50px;
     background: #27262a; }
-  .imgfork {
-    height: 600px; }
   .icon-nav {
     margin-left: 20px; }
   .btn-buy {
-    margin-right: 23%;
-    margin-top: -15px; }
+    right: 30%;
+    left: -25%;
+    margin-top: -4px; }
+  .display-bl {
+    display: none; }
+  .display-del {
+    display: none; }
+  .imgfork {
+    transform: translateY(80px);
+    object-fit: cover;
+    width: 100%;
+    height: 720px; }
   .text-fork {
-    width: 320px; }
-  .textfork {
-    width: 310px;
-    display: block;
-    margin: 70px auto 70px auto;
-    font-size: 48px; }
+    margin-top: 120px;
+    font-size: calc(40px + 3vw); }
   .text2 {
-    width: 320px;
-    font-size: 20px; }
+    font-size: calc(10px + 3vw); }
   .text3 {
-    width: 320px;
-    font-size: 14px; }
+    transform: translateY(-700px);
+    font-size: calc(10px + 1vw); }
   .btn-fork {
-    width: 290px;
-    margin-top: 300px; }
+    width: 320px; }
   .down-btn-text {
     width: 320px; }
   .forkio {
     display: none; }
-  .text-about-fork {
-    width: 310px;
-    margin-left: 4px;
-    font-size: 37px;
-    text-align: center; }
+  .talking-about {
+    width: 260px; }
+  .about-fork {
+    width: 100%; }
+  .grid-on-img {
+    transform: translateY(-1730px);
+    text-align: center;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: repeat(1, 100%); }
   .post1 {
     grid-area: 1 / 1 / 2 / 2; }
   .post2 {
@@ -990,26 +1079,15 @@
   .post6 {
     grid-area: 6 / 1 / 7/ 2; }
   .text-about {
-    width: 300px;
-    font-size: 13px;
-    margin-top: 15px;
-    margin-left: -35px; }
+    width: 280px;
+    font-size: 13px; }
   .img-about-fork {
-    height: 1100px; }
-  .img-about {
-    margin-left: 40px; }
-  .one {
-    margin-top: 40px; }
-  .three {
-    margin-left: 80px; }
-  .four {
-    margin-top: -20px;
-    margin-left: 3px; }
-  .six {
-    margin-left: 60px; }
+    object-fit: cover;
+    width: 100%;
+    height: 1950px; }
   .down-text-about {
-    margin-top: 800px;
+    margin-top: 900px;
     width: 90%;
     left: 5%; }
   .fork-line {
-    margin-top: 900px; } }
+    margin-top: 970px; } }

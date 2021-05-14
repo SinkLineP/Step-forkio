@@ -1,258 +1,319 @@
 <!DOCTYPE html>
 <html lang="en" class="page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>gulp</title>
+    <link rel="stylesheet" href="./dist/css/style.css" />
+  </head>
 
-<head>
-   <meta charset="UTF-8" />
-   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-   <link rel="shortcut icon" href="#" type="image/x-icon" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>gulp</title>
-   <link rel="stylesheet" href="./dist/css/style.css" />
-</head>
-
-<body class="page__body">
-   <section>
+  <body class="page__body">
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+    <div class="display-bl menu__box">
+      <a href="#" class="white white1 menu__item">Support</a>
+      <a href="#" class="white white2 menu__item">Buying Options</a>
+      <a href="#" class="white white3 menu__item ">About Fork</a>
+      <a href="#" class="white white4 menu__item">Overview</a>
+    </div>
+    </div>
+    <section>
       <div class="navbar-menu">
-         <button class="btn-buy">Buy Now</button>
-         <a href="#" class="white">Support</a>
-         <a href="#" class="white">Buying Options</a>
-         <a href="#" class="white">About Fork</a>
-         <a href="#" class="white">Overview</a>
-         <img src="./src/images/navbar/icon-nav.png" class="icon-nav" />
-         <span class="forkio">ForkIO</span>
+        <button class="btn-buy">Buy Now</button>
+        <div class="display-del">
+          <a href="#" class="white">Support</a>
+          <a href="#" class="white">Buying Options</a>
+          <a href="#" class="white">About Fork</a>
+          <a href="#" class="white">Overview</a>
+        </div>
+        <img src="./src/images/navbar/icon-nav.png" class="icon-nav" />
+        <span class="forkio">ForkIO</span>
       </div>
    </section>
    <section>
       
       <div class="fork-app">
-         <div class="img-fork">
-            <img src="src/images/forkapp/img1.png" class="imgfork" />
-         </div>
-         <div class="text-fork">
-            <p class="textfork">Fork App</p>
-            <p class="text2">
-               A real gamechanger in the world of web development
-            </p>
-            <p class="text3">v. 2.8 For Mac and Windows</p>
-            <button class="btn-fork">Download For Free Now</button>
-            <p class="down-btn-text">Unlimited 30-Days Trial Period</p>
-         </div>
-      </div>
-   </section>
-   <section class="rev">
-      <p class="rev-title">Revolutionary editor</p>
-      <p class="rev-text">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim.
-         Sed id metus id quam auctor molestie eget ut augue.</p>
-      <div class="rev-button rev-grid">
-         <a href="#" class="rev-btn watch rev-grid1">
-            <img class="rev-eye" src="./src/images/revolutionarEditor/eye.svg" alt=""> Watch
-         </a>
-         <a href="#" class="rev-btn star rev-grid2">
-            <img class="rev-star" src="./src/images/revolutionarEditor/star.svg" alt=""> Star
-         </a>
-         <a href="#" class="rev-btn fork rev-grid3">
-            <img class="rev-fork" src="./src/images/revolutionarEditor/fork.svg" alt=""> Fork
-         </a>
-      </div>
-   </section>
-   <section class="get-section">
-      <div class="get">
-         <div class="get-grid1">
-            <img src="./src/images/get/web-better.svg" alt="" />
-         </div>
-         <div class="get-grid2">
-            <img src="./src/images/get/powerfull.svg" alt="" />
-         </div>
-         <div class="get-grid3">
-            <img src="./src/images/get/experimental.svg" alt="" />
-         </div>
-         <div class="get-grid4">
-            <img src="./src/images/get/web-better-two.svg" alt="" />
-         </div>
+        <img src="src/images/forkapp/img1.png" class="imgfork" />
 
-         <div class="get-grid5">
-            <p>Creatred to Make The Web Better</p>
-            <p>
-               Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
-               laoreet vulputate dignissim. Sed id metus id quam auctor molestie
-               eget ut augue.
-            </p>
-            <br /><br />
-         </div>
-         <div class="get-grid6">
-            <p>Incredibly Powerful Tool</p>
-            <p>
-               Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
-               odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi
-               gravida luctus. Aliquam erat volutpat.
-            </p>
-         </div>
-         <div class="get-grid7">
-            <p>Experimental Stuff</p>
-            <p>
-               Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
-               odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi
-               gravida luctus. Aliquam erat volutpat.
-            </p>
-         </div>
-         <div class="get-grid8">
-            <p>Creatred to Make The Web Better</p>
-            <p>
-               Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
-               odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi
-               gravida luctus. Aliquam erat volutpat.
-            </p>
-         </div>
-         <div class="get-grid9">
-            <h1 class="get-title-editor">&#60;Here is what you get&#62;</h1>
-         </div>
-         <div class="get-grid10">
-            <img src="./src/images/get/editor.png" alt="" class="get-editor-big">
-            <img src="./src/images/get/editor-small.jpg" alt="" class="get-editor-small">
-         </div>
+        <!-- <div class="text-fork"> -->
+        <p class="text-fork">Fork App</p>
+
+      
+        <p class="down-btn-text">Unlimited 30-Days Trial Period</p>
+        <button class="btn-fork">Download For Free Now</button>
+
+        <!-- </div> -->
+        <p class="text2">A real gamechanger in the world of web development</p>
+        <p class="text3">v. 2.8 For Mac and Windows</p>
       </div>
-   </section>
-   <section class="about-fork">
-      <img src="./src/images/about-fork/fon.png" class="img-about-fork" />
-      <p class="text-about-fork">People Are Talking About Fork</p>
-      <div class="grid-on-img">
-         <div class="talking-about">
-            <div class="post1">
-               <img src="./src/images/about-fork/1.png" class="img-about one" />
-               <p class="text-about">
-                  Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
-                  amet. Proin id dignissim magna. Sed varius urna et pulvinar
-                  venenatis.
-               </p>
-            </div>
-            <div class="post2">
-               <img src="./src/images/about-fork/2.png" class="img-about two" />
-               <p class="text-about">
-                  Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum,
-                  rhoncus molestie neque ac, mollis eleifend nibh.
-               </p>
-            </div>
-            <div class="post3">
-               <img src="./src/images/about-fork/3.png" class="img-about three" />
-               <p class="text-about">
-                  In efficitur in velit et tempus. Duis nec odio dapibus, suscipit
-                  erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac
-                  vehicula.
-               </p>
-            </div>
-            <div class="post4">
-               <img src="./src/images/about-fork/4.png" class="img-about four" />
-               <p class="text-about">
-                  Sed vestibulum scelerisque urna, eu finibus leo facilisis sit
-                  amet. Proin id dignissim magna. Sed varius urna et pulvinar
-                  venenatis.
-               </p>
-            </div>
-            <div class="post5">
-               <img src="./src/images/about-fork/5.png" class="img-about" />
-               <p class="text-about">
-                  Praesent ut eros tristique, malesuada lectus vel, lobortis massa.
-                  Nulla faucibus lorem id arcu consequat faucibus.
-               </p>
-            </div>
-            <div class="post6">
-               <img src="./src/images/about-fork/6.png" class="img-about six" />
-               <p class="text-about">
-                  Fusce pharetra erat id odio blandit, nec pharetra eros venenatis.
-                  Pellentesque porttitor cursus massa et vestibulum.
-               </p>
-            </div>
-         </div>
-      </div>
-      <p class="down-text-about">
-         Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris,
-         facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu
-         libero tincidunt consequat nec elementum orci. Cum sociis natoque
-         penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+    </section>
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <br />
+    <section class="rev">
+      <p class="rev-title">Revolutionary editor</p>
+      <p class="rev-text">
+        Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet
+        vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.
       </p>
+      <div class="rev-button rev-grid">
+        <a href="#" class="rev-btn watch rev-grid1">
+          <img
+            class="rev-eye"
+            src="./src/images/revolutionarEditor/eye.svg"
+            alt=""
+          />
+          Watch
+        </a>
+        <a href="#" class="rev-btn star rev-grid2">
+          <img
+            class="rev-star"
+            src="./src/images/revolutionarEditor/star.svg"
+            alt=""
+          />
+          Star
+        </a>
+        <a href="#" class="rev-btn fork rev-grid3">
+          <img
+            class="rev-fork"
+            src="./src/images/revolutionarEditor/fork.svg"
+            alt=""
+          />
+          Fork
+        </a>
+      </div>
+    </section>
+    <section class="get-section">
+      <div class="get">
+        <div class="get-grid1">
+          <img src="./src/images/get/web-better.svg" alt="" />
+        </div>
+        <div class="get-grid2">
+          <img src="./src/images/get/powerfull.svg" alt="" />
+        </div>
+        <div class="get-grid3">
+          <img src="./src/images/get/experimental.svg" alt="" />
+        </div>
+        <div class="get-grid4">
+          <img src="./src/images/get/web-better-two.svg" alt="" />
+        </div>
+
+        <div class="get-grid5">
+          <p>Creatred to Make The Web Better</p>
+          <p>
+            Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui
+            laoreet vulputate dignissim. Sed id metus id quam auctor molestie
+            eget ut augue.
+          </p>
+          <br /><br />
+        </div>
+        <div class="get-grid6">
+          <p>Incredibly Powerful Tool</p>
+          <p>
+            Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
+            odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi
+            gravida luctus. Aliquam erat volutpat.
+          </p>
+        </div>
+        <div class="get-grid7">
+          <p>Experimental Stuff</p>
+          <p>
+            Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
+            odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi
+            gravida luctus. Aliquam erat volutpat.
+          </p>
+        </div>
+        <div class="get-grid8">
+          <p>Creatred to Make The Web Better</p>
+          <p>
+            Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis
+            odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi
+            gravida luctus. Aliquam erat volutpat.
+          </p>
+        </div>
+        <div class="get-grid9">
+          <h1 class="get-title-editor">&#60;Here is what you get&#62;</h1>
+        </div>
+        <div class="get-grid10">
+          <img
+            src="./src/images/get/editor.png"
+            alt=""
+            class="get-editor-big"
+          />
+          <img
+            src="./src/images/get/editor-small.jpg"
+            alt=""
+            class="get-editor-small"
+          />
+        </div>
+      </div>
+    </section>
+
+    <p class="heading-about-fork">People Are Talking About Fork</p>
+    <section class="about-fork">
+      <img src="./src/images/about-fork/fon.png" class="img-about-fork" />
+
+      <div class="grid-on-img">
+        <div class="post1">
+          <img src="./src/images/about-fork/1.png" class="img-about" />
+          <p class="text-about">
+            Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet.
+            Proin id dignissim magna. Sed varius urna et pulvinar venenatis.
+          </p>
+        </div>
+        <div class="post2">
+          <img src="./src/images/about-fork/2.png" class="img-about" />
+          <p class="text-about">
+            Donec euismod dolor ut ultricies consequat. Vivamus urna ipsum,
+            rhoncus molestie neque ac, mollis eleifend nibh.
+          </p>
+        </div>
+        <div class="post3">
+          <img src="./src/images/about-fork/3.png" class="img-about" />
+          <p class="text-about">
+            In efficitur in velit et tempus. Duis nec odio dapibus, suscipit
+            erat fringilla, imperdiet nibh. Morbi tempus auctor felis ac
+            vehicula.
+          </p>
+        </div>
+        <div class="post4">
+          <img src="./src/images/about-fork/4.png" class="img-about" />
+          <p class="text-about">
+            Sed vestibulum scelerisque urna, eu finibus leo facilisis sit amet.
+            Proin id dignissim magna. Sed varius urna et pulvinar venenatis.
+          </p>
+        </div>
+        <div class="post5">
+          <img src="./src/images/about-fork/5.png" class="img-about" />
+          <p class="text-about">
+            Praesent ut eros tristique, malesuada lectus vel, lobortis massa.
+            Nulla faucibus lorem id arcu consequat faucibus.
+          </p>
+        </div>
+        <div class="post6">
+          <img src="./src/images/about-fork/6.png" class="img-about" />
+          <p class="text-about">
+            Fusce pharetra erat id odio blandit, nec  pharetra eros venenatis.
+            Pellentesque porttitor cursus massa et vestibulum.
+          </p>
+        </div>
+      </div>
+      <div class="container-text-down-about">
+        <p class="down-text-about">
+          Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris,
+          facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu
+          libero tincidunt consequat nec elementum orci. Cum sociis natoque
+          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        </p>
+      </div>
       <hr class="fork-line" color="#645766" />
-   </section>
-   <section class="pricing">
+    </section>
+    <section class="pricing">
       <h1 class="pricing-title">Fork Subscription Pricing</h1>
       <div class="price-table">
-         <div class="price-block">
-            <div class="price-top">
-               <p class="price-title">Students</p>
+        <div class="price-block">
+          <div class="price-top">
+            <p class="price-title">Students</p>
+          </div>
+          <div class="price-content">
+            <div class="price-text-content">
+              <h1 class="price">$<span class="price-number">29</span></h1>
+              <div class="price-transform">
+                <p class="price-date">per month</p>
+                <img
+                  class="price-line"
+                  src="./src/images/price/line.png"
+                  alt=""
+                />
+                <p class="price-license">
+                  Personal License<br /><span class="price-vis">lic</span>
+                </p>
+              </div>
             </div>
-            <div class="price-content">
-               <div class="price-text-content">
-                  <h1 class="price">$<span class="price-number">29</span></h1>
-                  <div class="price-transform">
-                     <p class="price-date">per month</p>
-                     <img class="price-line" src="./src/images/price/line.png" alt="" />
-                     <p class="price-license">
-                        Personal License<br /><span class="price-vis">lic</span>
-                     </p>
-                  </div>
-               </div>
-               <button class="price-btn"><a href="#">Purchase</a></button>
-            </div>
-         </div>
+            <button class="price-btn"><a href="#">Purchase</a></button>
+          </div>
+        </div>
 
-         <div class="price-block">
-            <div class="price-top">
-               <p class="price-title">professional</p>
+        <div class="price-block">
+          <div class="price-top">
+            <p class="price-title">professional</p>
+          </div>
+          <div class="price-content">
+            <div class="price-text-content">
+              <h1 class="price">$<span class="price-number">59</span></h1>
+              <div class="price-transform">
+                <p class="price-date">per month</p>
+                <img
+                  class="price-line"
+                  src="./src/images/price/line.png"
+                  alt=""
+                />
+                <p class="price-license">
+                  Professional License<br />Email Support
+                </p>
+              </div>
             </div>
-            <div class="price-content">
-               <div class="price-text-content">
-                  <h1 class="price">$<span class="price-number">59</span></h1>
-                  <div class="price-transform">
-                     <p class="price-date">per month</p>
-                     <img class="price-line" src="./src/images/price/line.png" alt="" />
-                     <p class="price-license">
-                        Professional License<br />Email Support
-                     </p>
-                  </div>
-               </div>
-               <button class="price-btn"><a href="#">Purchase</a></button>
-            </div>
-         </div>
+            <button class="price-btn"><a href="#">Purchase</a></button>
+          </div>
+        </div>
 
-         <div class="price-block-active">
-            <div class="price-top">
-               <p class="price-title">agency</p>
+        <div class="price-block-active">
+          <div class="price-top">
+            <p class="price-title">agency</p>
+          </div>
+          <div class="price-content">
+            <div class="price-text-content">
+              <h1 class="price">$<span class="price-number">99</span></h1>
+              <div class="price-transform">
+                <p class="price-date">per month</p>
+                <img
+                  class="price-line"
+                  src="./src/images/price/line.png"
+                  alt=""
+                />
+                <p class="price-license">
+                  1-12 Team Members<br />Phone Support
+                </p>
+              </div>
             </div>
-            <div class="price-content">
-               <div class="price-text-content">
-                  <h1 class="price">$<span class="price-number">99</span></h1>
-                  <div class="price-transform">
-                     <p class="price-date">per month</p>
-                     <img class="price-line" src="./src/images/price/line.png" alt="" />
-                     <p class="price-license">
-                        1-12 Team Members<br />Phone Support
-                     </p>
-                  </div>
-               </div>
-               <button class="price-btn"><a href="#">Purchase</a></button>
-            </div>
-         </div>
+            <button class="price-btn"><a href="#">Purchase</a></button>
+          </div>
+        </div>
 
-         <div class="price-block">
-            <div class="price-top">
-               <p class="price-title">enterprise</p>
+        <div class="price-block">
+          <div class="price-top">
+            <p class="price-title">enterprise</p>
+          </div>
+          <div class="price-content">
+            <div class="price-text-content">
+              <h1 class="price">$<span class="price-number">159</span></h1>
+              <div class="price-transform">
+                <p class="price-date">per month</p>
+                <img
+                  class="price-line"
+                  src="./src/images/price/line.png"
+                  alt=""
+                />
+                <p class="price-license">
+                  Unlimited Team Members<br />24/ 7 Phone Support
+                </p>
+              </div>
             </div>
-            <div class="price-content">
-               <div class="price-text-content">
-                  <h1 class="price">$<span class="price-number">159</span></h1>
-                  <div class="price-transform">
-                     <p class="price-date">per month</p>
-                     <img class="price-line" src="./src/images/price/line.png" alt="" />
-                     <p class="price-license">
-                        Unlimited Team Members<br />24/ 7 Phone Support
-                     </p>
-                  </div>
-               </div>
-               <button class="price-btn"><a href="#">Purchase</a></button>
-            </div>
-         </div>
+            <button class="price-btn"><a href="#">Purchase</a></button>
+          </div>
+        </div>
       </div>
-   </section>
-   <script src="./dist/js/index.js"></script>
-</body>
-
+    </section>
+    <script src="./dist/js/index.js"></script>
+  </body>
 </html>
