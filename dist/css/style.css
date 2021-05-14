@@ -16,6 +16,9 @@
   align-items: center;
   color: #848E97; }
 
+.get-up-img {
+  transform: translateY(-100px); }
+
 .page__body {
   font-family: Montserrat, sans-serif;
   margin-left: 0;
@@ -849,49 +852,62 @@
   .pricing .pricing-title {
     font-size: 28px; }
   .get {
-    margin: 20px 0px 0px 0px;
+    padding: 64px 0px 0px 0px;
+    margin-top: 90px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 120px, repeat(9, 1fr);
+    grid-template-rows: repeat(9, 140px) 1fr;
+    grid-template-areas: "title" "webimgone"  "webbetterone" "experimentalimg"  "experimental" "powerfullimg"  "powerfull" "webimgtwo"  "webbettertwo" "img";
     grid-column-gap: 0px;
     grid-row-gap: 0px; }
   .get-grid9 {
-    grid-area: 1 / 1 / 2 / 2; }
+    grid-area: title; }
     .get-grid9 .get-title-editor {
-      width: 275px;
-      font-size: 32px;
-      text-align: center; }
+      font-size: calc(20px + 2vw);
+      text-align: center;
+      padding-top: 40px;
+      width: 100%;
+      margin: 0; }
   .get-grid1 {
-    grid-area: 2 / 1 / 3 / 2; }
-  .get-grid5 {
-    text-align: center;
-    padding-left: 0;
-    grid-area: 3 / 1 / 4 / 2; }
-  .get-grid2 {
-    grid-area: 4 / 1 / 5 / 2; }
-  .get-grid6 {
-    text-align: center;
-    padding-left: 0;
-    grid-area: 5 / 1 / 6 / 2; }
+    transform: translateY(-100px);
+    grid-area: webimgone; }
+    .get-grid1 img {
+      display: block;
+      margin: 30% auto 0px auto; }
   .get-grid3 {
-    grid-area: 6 / 1 / 7 / 2; }
-  .get-grid7 {
-    text-align: center;
-    padding-left: 0;
-    grid-area: 7 / 1 / 8 / 2; }
+    transform: translateY(-30px);
+    grid-area: experimentalimg; }
+    .get-grid3 img {
+      display: block;
+      margin: 15% auto 0px auto; }
+  .get-grid2 {
+    transform: translateY(-50px);
+    grid-area: powerfullimg; }
+    .get-grid2 img {
+      display: block;
+      margin: 20% auto 0px auto; }
   .get-grid4 {
-    grid-area: 8 / 1 / 9 / 2; }
+    transform: translateY(-50px);
+    grid-area: webimgtwo; }
+    .get-grid4 img {
+      display: block;
+      margin: 19% auto 0px auto; }
+  .get-grid6 {
+    grid-area: powerfull; }
+  .get-grid7 {
+    grid-area: experimental; }
   .get-grid8 {
-    text-align: center;
-    padding-left: 0;
-    grid-area: 9 / 1 / 10 / 2; }
+    grid-area: webbetterone; }
+  .get-grid5 {
+    grid-area: webbettertwo; }
   .get-grid10 {
-    margin-left: 0%;
-    grid-area: 10 / 1 / 11 / 2; }
+    text-align: right;
+    grid-area: img; }
     .get-grid10 .get-editor-big {
       display: none; }
     .get-grid10 .get-editor-small {
-      margin-left: 3px;
+      width: 457px;
+      height: auto;
       display: block; }
   .price-table {
     margin: 0px;
