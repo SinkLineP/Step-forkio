@@ -35,7 +35,7 @@
     margin-left: 0%;
   }
 
-  
+
   .get-title-editor {
     padding-top: 50px;
     font-size: calc(17px + 2vw);
@@ -143,14 +143,29 @@
     margin-top: 90px;
 
     display: grid;
-    grid-template-columns: 1fr, 500px;
-    grid-template-rows: 200px, 1fr, 1fr, 1fr, 1fr, 1fr;
+    // grid-template-columns: 200px 1fr;
+    grid-template-rows: repeat(5, 190px) 1fr;
+    grid-template-areas:
+      "title title title"
+      "webimgone webbetterone webbetterone"
+      "experimentalimg experimental experimental"
+      "powerfullimg powerfull powerfull"
+      "webimgtwo webbettertwo webbettertwo"
+      "img img img";
     grid-column-gap: 0px;
     grid-row-gap: 0px;
   }
 
   .get-grid9 {
-    grid-area: 1 / 1 / 2 / 3;
+    & .get-title-editor {
+      font-size: calc(20px + 2vw);
+      text-align: center;
+      padding-top: 40px;
+      width: 100%;
+      margin: 0;
+    }
+
+    grid-area: title;
   }
 
   .get-grid1 {
@@ -159,7 +174,7 @@
       margin: 30% auto 0px auto;
     }
 
-    grid-area: 2 / 1 / 3 / 2;
+    grid-area: webimgone;
   }
 
   .get-grid3 {
@@ -168,7 +183,7 @@
       margin: 15% auto 0px auto;
     }
 
-    grid-area: 3 / 1 / 4 / 2;
+    grid-area: experimentalimg;
   }
 
   .get-grid2 {
@@ -177,7 +192,7 @@
       margin: 20% auto 0px auto;
     }
 
-    grid-area: 4 / 1 / 5 / 2;
+    grid-area: powerfullimg;
   }
 
   .get-grid4 {
@@ -186,28 +201,38 @@
       margin: 19% auto 0px auto;
     }
 
-    grid-area: 5 / 1 / 6 / 2;
+    grid-area: webimgtwo;
   }
 
   .get-grid6 {
-    grid-area: 2 / 2 / 3 / 3;
+    grid-area: powerfull;
   }
 
   .get-grid7 {
-    grid-area: 3 / 2 / 4 / 3;
+    grid-area: experimental;
   }
 
   .get-grid8 {
-    grid-area: 4 / 2 / 5 / 3;
+    grid-area: webbetterone;
   }
 
   .get-grid5 {
-    grid-area: 5 / 2 / 6 / 3;
+    grid-area: webbettertwo;
   }
 
   .get-grid10 {
-    margin-left: 4%;
-    grid-area: 6 / 1 / 7 / 3;
+    // height: auto;
+    // margin: 0;
+    text-align: right;
+
+    & .get-editor-big {
+      width: 447px;
+      height: auto;
+    }
+
+    align-self: center;
+
+    grid-area: img;
   }
 
   //===========GET-END===========
