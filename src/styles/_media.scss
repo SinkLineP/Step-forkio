@@ -90,6 +90,9 @@
     height: 800px;
   }
 
+  .about-fork {
+    margin-top: 90px;
+  }
   
 
 }
@@ -171,7 +174,7 @@
   .get-grid1 {
     & img {
       display: block;
-      margin: 30% auto 0px auto;
+      margin: 7% auto 0px auto;
     }
 
     grid-area: webimgone;
@@ -180,7 +183,7 @@
   .get-grid3 {
     & img {
       display: block;
-      margin: 15% auto 0px auto;
+      margin: 7% auto 0px auto;
     }
 
     grid-area: experimentalimg;
@@ -189,7 +192,7 @@
   .get-grid2 {
     & img {
       display: block;
-      margin: 20% auto 0px auto;
+      margin: 7% auto 0px auto;
     }
 
     grid-area: powerfullimg;
@@ -198,7 +201,7 @@
   .get-grid4 {
     & img {
       display: block;
-      margin: 19% auto 0px auto;
+      margin: 7% auto 0px auto;
     }
 
     grid-area: webimgtwo;
@@ -237,6 +240,11 @@
 
   //===========GET-END===========
   // ===========PRICE===========
+  .pricing {
+    margin-top: 500px;
+
+  }
+
   .price-table {
     width: 481px;
     margin: 0 auto;
@@ -359,22 +367,22 @@
   .img-about-fork {
     object-fit: cover;
     width: 100%;
-    height: 1550px;
+    height: 1300px;
   }
 
   .grid-on-img {
-    transform: translateY(-1300px);
+    transform: translateY(-1100px);
     //   margin-left:10%;
     gap: 60px 0;
     grid-template-columns: repeat(2, 48%);
   }
 
   .down-text-about {
-    top: 1120px;
+    top: 1050px;
   }
 
   .fork-line {
-    top: 1250px;
+    top: 1200px;
   }
 
   .text-about {
@@ -383,6 +391,15 @@
   .fork-app {
     grid-template-columns: repeat(1, 100%);
   }
+
+  .about-fork {
+    margin-top: 90px;
+  }
+ 
+.heading-about-fork{
+  transform: translateY(70px);
+}
+
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -460,6 +477,8 @@
   
 
   .pricing {
+      margin-top: 1190px;
+
     & .pricing-title {
       font-size: 28px;
     }
@@ -494,7 +513,7 @@
     & .get-title-editor {
       font-size: calc(20px + 2vw);
       text-align: center;
-      padding-top: 40px;
+      padding-top: 20px;
       width: 100%;
       margin: 0;
     }
@@ -515,7 +534,7 @@
   .get-grid3 {
     & img {
       display: block;
-      margin: 15% auto 0px auto;
+      margin: 30% auto 0px auto;
     }
 
     transform: translateY(-30px);
@@ -525,7 +544,7 @@
   .get-grid2 {
     & img {
       display: block;
-      margin: 20% auto 0px auto;
+      margin: 30% auto 0px auto;
     }
 
     transform: translateY(-50px);
@@ -535,7 +554,7 @@
   .get-grid4 {
     & img {
       display: block;
-      margin: 19% auto 0px auto;
+      margin: 30% auto 0px auto;
     }
 
     transform: translateY(-50px);
@@ -568,7 +587,7 @@
     }
 
     & .get-editor-small {
-      width: 457px;
+      width: 300px;
       height: auto;
       display: block;
     }

@@ -673,7 +673,9 @@
   .img-about-fork {
     object-fit: cover;
     width: 100%;
-    height: 800px; } }
+    height: 800px; }
+  .about-fork {
+    margin-top: 90px; } }
 
 @media (min-width: 481px) and (max-width: 992px) {
   .rev {
@@ -716,22 +718,22 @@
     grid-area: webimgone; }
     .get-grid1 img {
       display: block;
-      margin: 30% auto 0px auto; }
+      margin: 7% auto 0px auto; }
   .get-grid3 {
     grid-area: experimentalimg; }
     .get-grid3 img {
       display: block;
-      margin: 15% auto 0px auto; }
+      margin: 7% auto 0px auto; }
   .get-grid2 {
     grid-area: powerfullimg; }
     .get-grid2 img {
       display: block;
-      margin: 20% auto 0px auto; }
+      margin: 7% auto 0px auto; }
   .get-grid4 {
     grid-area: webimgtwo; }
     .get-grid4 img {
       display: block;
-      margin: 19% auto 0px auto; }
+      margin: 7% auto 0px auto; }
   .get-grid6 {
     grid-area: powerfull; }
   .get-grid7 {
@@ -747,6 +749,8 @@
     .get-grid10 .get-editor-big {
       width: 447px;
       height: auto; }
+  .pricing {
+    margin-top: 500px; }
   .price-table {
     width: 481px;
     margin: 0 auto;
@@ -821,19 +825,23 @@
   .img-about-fork {
     object-fit: cover;
     width: 100%;
-    height: 1550px; }
+    height: 1300px; }
   .grid-on-img {
-    transform: translateY(-1300px);
+    transform: translateY(-1100px);
     gap: 60px 0;
     grid-template-columns: repeat(2, 48%); }
   .down-text-about {
-    top: 1120px; }
+    top: 1050px; }
   .fork-line {
-    top: 1250px; }
+    top: 1200px; }
   .text-about {
     width: 220px; }
   .fork-app {
-    grid-template-columns: repeat(1, 100%); } }
+    grid-template-columns: repeat(1, 100%); }
+  .about-fork {
+    margin-top: 90px; }
+  .heading-about-fork {
+    transform: translateY(70px); } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .rev {
@@ -875,8 +883,10 @@
         background-position: calc(100% - 3.7em) 0, calc(100% - 3.7em + 1px) 0, 0 0; }
       .rev .rev-button .rev-btn:after {
         font-size: 15px; }
-  .pricing .pricing-title {
-    font-size: 28px; }
+  .pricing {
+    margin-top: 1190px; }
+    .pricing .pricing-title {
+      font-size: 28px; }
   .get {
     padding: 64px 0px 0px 0px;
     margin-top: 90px;
@@ -891,7 +901,7 @@
     .get-grid9 .get-title-editor {
       font-size: calc(20px + 2vw);
       text-align: center;
-      padding-top: 40px;
+      padding-top: 20px;
       width: 100%;
       margin: 0; }
   .get-grid1 {
@@ -905,19 +915,19 @@
     grid-area: experimentalimg; }
     .get-grid3 img {
       display: block;
-      margin: 15% auto 0px auto; }
+      margin: 30% auto 0px auto; }
   .get-grid2 {
     transform: translateY(-50px);
     grid-area: powerfullimg; }
     .get-grid2 img {
       display: block;
-      margin: 20% auto 0px auto; }
+      margin: 30% auto 0px auto; }
   .get-grid4 {
     transform: translateY(-50px);
     grid-area: webimgtwo; }
     .get-grid4 img {
       display: block;
-      margin: 19% auto 0px auto; }
+      margin: 30% auto 0px auto; }
   .get-grid6 {
     grid-area: powerfull; }
   .get-grid7 {
@@ -932,7 +942,7 @@
     .get-grid10 .get-editor-big {
       display: none; }
     .get-grid10 .get-editor-small {
-      width: 457px;
+      width: 300px;
       height: auto;
       display: block; }
   .price-table {
