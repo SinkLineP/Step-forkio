@@ -605,10 +605,19 @@
   width: 65%; }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+  .price-table {
+    margin: 0 auto;
+    width: 993px; }
   .price-block {
-    margin: 51px 2px 0px 20px; }
+    margin: 51px 2px 0px 10px;
+    width: 225px; }
+    .price-block .price-top {
+      width: 225px; }
   .price-block-active {
-    margin: 0px 2px 0px 0px; }
+    margin: 0px 0px 0px 5px;
+    width: 237px; }
+    .price-block-active .price-top {
+      width: 237px; }
   .get {
     padding: 64px 0px 0px 0px;
     margin: 90px 0px 0px 5%;
@@ -726,16 +735,23 @@
       width: 447px;
       height: auto; }
   .price-table {
-    margin-left: 42px;
+    width: 481px;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas: ". ." ". ."; }
   .price-block {
-    margin: 51px 0px 0px 65px; }
+    margin: 51px 0px 0px 20px;
+    width: 215px; }
+    .price-block .price-top {
+      width: 215px; }
   .price-block-active {
-    margin: 0px 0px 0px 25px; }
+    width: 237px;
+    margin: 0px 0px 0px 0px; }
+    .price-block-active .price-top {
+      width: 237px; }
   .text-fork {
     display: block;
     margin: 0px auto 0px auto;
@@ -857,7 +873,7 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(9, 140px) 1fr;
-    grid-template-areas: "title" "webimgone"  "webbetterone" "experimentalimg"  "experimental" "powerfullimg"  "powerfull" "webimgtwo"  "webbettertwo" "img";
+    grid-template-areas: "title" "webimgone" "webbetterone" "experimentalimg" "experimental" "powerfullimg" "powerfull" "webimgtwo" "webbettertwo" "img";
     grid-column-gap: 0px;
     grid-row-gap: 0px; }
   .get-grid9 {
@@ -910,7 +926,8 @@
       height: auto;
       display: block; }
   .price-table {
-    margin: 0px;
+    width: 300px;
+    margin: 0 auto;
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
@@ -918,9 +935,9 @@
     gap: 0px 0px;
     grid-template-areas: "." "." "." "."; }
   .price-block {
-    margin: 0px 0px 0px 33px; }
+    margin: 0px 0px 0px 24px; }
   .price-block-active {
-    margin: 10px 0px 10px 12px; }
+    margin: 10px 0px 10px 0px; }
   .talking-about {
     width: 260px; }
   .about-fork {

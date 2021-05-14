@@ -1,12 +1,27 @@
 @media (min-width: 993px) and (max-width: 1200px) {
 
   // ===========PRICE=========
+  .price-table {
+    margin: 0 auto;
+    width: 993px;
+  }
+
   .price-block {
-    margin: 51px 2px 0px 20px;
+    margin: 51px 2px 0px 10px;
+    width: 225px;
+
+    & .price-top {
+      width: 225px;
+    }
   }
 
   .price-block-active {
-    margin: 0px 2px 0px 0px;
+    margin: 0px 0px 0px 5px;
+    width: 237px;
+
+    & .price-top {
+      width: 237px;
+    }
   }
 
   //============PRICE-END======
@@ -236,11 +251,13 @@
   }
 
   //===========GET-END===========
-
+  // ===========PRICE===========
   .price-table {
-    margin-left: 42px;
+    width: 481px;
+    margin: 0 auto;
+    // margin-left: 42px;
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-template-areas:
@@ -249,13 +266,28 @@
   }
 
   .price-block {
-    margin: 51px 0px 0px 65px;
+    margin: 51px 0px 0px 20px;
+    width: 215px;
+
+    & .price-top {
+      width: 215px;
+    }
   }
 
   .price-block-active {
-    margin: 0px 0px 0px 25px;
+    width: 237px;
+    margin: 0px 0px 0px 0px;
+
+    & .price-top {
+      width: 237px;
+    }
   }
 
+
+
+
+
+  //===================PRICE-END==============
   .text-fork {
     display: block;
     margin: 0px auto 0px auto;
@@ -454,7 +486,7 @@
 
   //========REV-END========
 
-
+  
 
   .pricing {
     & .pricing-title {
@@ -474,13 +506,13 @@
     grid-template-rows: repeat(9, 140px) 1fr;
     grid-template-areas:
       "title"
-      "webimgone" 
+      "webimgone"
       "webbetterone"
-      "experimentalimg" 
+      "experimentalimg"
       "experimental"
-      "powerfullimg" 
+      "powerfullimg"
       "powerfull"
-      "webimgtwo" 
+      "webimgtwo"
       "webbettertwo"
       "img";
     grid-column-gap: 0px;
@@ -504,6 +536,7 @@
       display: block;
       margin: 30% auto 0px auto;
     }
+
     transform: translateY(-100px);
     grid-area: webimgone;
   }
@@ -513,6 +546,7 @@
       display: block;
       margin: 15% auto 0px auto;
     }
+
     transform: translateY(-30px);
     grid-area: experimentalimg;
   }
@@ -522,6 +556,7 @@
       display: block;
       margin: 20% auto 0px auto;
     }
+
     transform: translateY(-50px);
     grid-area: powerfullimg;
   }
@@ -531,6 +566,7 @@
       display: block;
       margin: 19% auto 0px auto;
     }
+
     transform: translateY(-50px);
     grid-area: webimgtwo;
   }
@@ -573,11 +609,12 @@
 
 
 
-    
-// =======get-end========
+
+  // =======get-end========
 
   .price-table {
-    margin: 0px;
+    width: 300px;
+    margin: 0 auto;
     padding: 0px;
     display: grid;
     grid-template-columns: 1fr;
@@ -592,11 +629,11 @@
 
 
   .price-block {
-    margin: 0px 0px 0px 33px;
+    margin: 0px 0px 0px 24px;
   }
 
   .price-block-active {
-    margin: 10px 0px 10px 12px;
+    margin: 10px 0px 10px 0px;
   }
 
   .talking-about {
