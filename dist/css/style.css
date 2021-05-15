@@ -909,25 +909,25 @@
     grid-area: webimgone; }
     .get-grid1 img {
       display: block;
-      margin: 30% auto 0px auto; }
+      margin: 130px auto 0px auto; }
   .get-grid3 {
     transform: translateY(-30px);
     grid-area: experimentalimg; }
     .get-grid3 img {
       display: block;
-      margin: 30% auto 0px auto; }
+      margin: 60px auto 0px auto; }
   .get-grid2 {
     transform: translateY(-50px);
     grid-area: powerfullimg; }
     .get-grid2 img {
       display: block;
-      margin: 30% auto 0px auto; }
+      margin: 80px auto 0px auto; }
   .get-grid4 {
     transform: translateY(-50px);
     grid-area: webimgtwo; }
     .get-grid4 img {
       display: block;
-      margin: 30% auto 0px auto; }
+      margin: 80px auto 0px auto; }
   .get-grid6 {
     grid-area: powerfull; }
   .get-grid7 {
@@ -938,11 +938,12 @@
     grid-area: webbettertwo; }
   .get-grid10 {
     text-align: right;
+    align-self: center;
     grid-area: img; }
     .get-grid10 .get-editor-big {
       display: none; }
     .get-grid10 .get-editor-small {
-      width: 300px;
+      width: 100%;
       height: auto;
       display: block; }
   .price-table {

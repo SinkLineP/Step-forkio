@@ -524,7 +524,7 @@
   .get-grid1 {
     & img {
       display: block;
-      margin: 30% auto 0px auto;
+      margin: 130px auto 0px auto;
     }
 
     transform: translateY(-100px);
@@ -534,7 +534,7 @@
   .get-grid3 {
     & img {
       display: block;
-      margin: 30% auto 0px auto;
+      margin: 60px auto 0px auto;
     }
 
     transform: translateY(-30px);
@@ -544,7 +544,7 @@
   .get-grid2 {
     & img {
       display: block;
-      margin: 30% auto 0px auto;
+      margin: 80px auto 0px auto;
     }
 
     transform: translateY(-50px);
@@ -554,7 +554,7 @@
   .get-grid4 {
     & img {
       display: block;
-      margin: 30% auto 0px auto;
+      margin: 80px auto 0px auto;
     }
 
     transform: translateY(-50px);
@@ -587,12 +587,12 @@
     }
 
     & .get-editor-small {
-      width: 300px;
+      width: 100%;
       height: auto;
       display: block;
     }
 
-    // align-self: center;
+    align-self: center;
 
     grid-area: img;
   }
