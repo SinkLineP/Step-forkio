@@ -783,7 +783,7 @@
     left: -2%; }
   .btn-buy {
     transform: translateY(-15px);
-    right: 1%; }
+    right: -2%; }
   .white {
     font-size: calc(50% + 1vw);
     white-space: nowrap; }
@@ -1038,11 +1038,15 @@
     height: 50px;
     background: #27262a; }
   .icon-nav {
-    margin-left: 20px; }
-  .btn-buy {
-    right: 30%;
-    left: -25%;
-    margin-top: -4px; }
+    transform: translateY(-40px);
+    margin-left: 10px; }
+  .btn-buy-pos {
+    width: 100%;
+    height: auto; }
+    .btn-buy-pos .btn-buy {
+      float: none;
+      display: block;
+      margin: -4px auto 0px auto; }
   .display-bl {
     display: none; }
   .display-del {
